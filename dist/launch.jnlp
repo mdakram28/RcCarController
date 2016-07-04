@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>rc_car</title>
+        <vendor>Akram</vendor>
+        <homepage href=""/>
+        <description>rc_car</description>
+        <description kind="short">rc_car</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.7+"/>
+        <jar href="rc_car.jar" main="true"/>
+    <jar href="lib/comm.jar"/>
+</resources>
+    <application-desc main-class="Rc_car">
+    </application-desc>
+</jnlp>
